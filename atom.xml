@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Van</title>
+  
+  <subtitle>thinkdiff</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://wlqunr.github.io/"/>
+  <updated>2019-11-03T15:01:56.066Z</updated>
+  <id>https://wlqunr.github.io/</id>
+  
+  <author>
+    <name>van</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ceshi</title>
+    <link href="https://wlqunr.github.io/2019/11/04/ceshi/"/>
+    <id>https://wlqunr.github.io/2019/11/04/ceshi/</id>
+    <published>2019-11-03T18:04:56.000Z</published>
+    <updated>2019-11-03T15:01:56.066Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="网页文件树本地化"><a href="#网页文件树本地化" class="headerlink" title="网页文件树本地化"></a>网页文件树本地化</h2><p><img src="/2019/11/04/ceshi//1572793314453.png" alt="1572793314453"></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;网页文件树本地化&quot;&gt;&lt;a href=&quot;#网页文件树本地化&quot; class=&quot;headerlink&quot; title=&quot;网页文件树本地化&quot;&gt;&lt;/a&gt;网页文件树本地化&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;/2019/11/04/ceshi//1572793314453.png
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://wlqunr.github.io/categories/Tools/"/>
+    
+    
+      <category term="Tools" scheme="https://wlqunr.github.io/tags/Tools/"/>
+    
+      <category term="HTML" scheme="https://wlqunr.github.io/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网页资源离线获取</title>
+    <link href="https://wlqunr.github.io/2019/11/04/%E7%BD%91%E9%A1%B5%E8%B5%84%E6%BA%90%E7%A6%BB%E7%BA%BF%E8%8E%B7%E5%8F%96/"/>
+    <id>https://wlqunr.github.io/2019/11/04/网页资源离线获取/</id>
+    <published>2019-11-03T18:04:56.000Z</published>
+    <updated>2019-11-03T14:39:35.324Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="网页文件树本地化"><a href="#网页文件树本地化" class="headerlink" title="网页文件树本地化"></a>网页文件树本地化</h2><p>很多网页教程等，我们希望把它下载到本地，做成文件形式，方便离线阅读。这里介绍两种格式文件的简单转换方法。</p><pre><code>{% asset_img /1572775678476.jpg This is an example image %}</code></pre><p>的地方</p><p><img src="/2019/11/04/网页资源离线获取//1572775678476.jpg" alt="常见的网页文件树"></p><h3 id="将网页制作成PDF"><a href="#将网页制作成PDF" class="headerlink" title="将网页制作成PDF"></a>将网页制作成PDF</h3><ul><li><p>单张网页：</p><p>对于一张网页，我们可以利用浏览器固有的【另存为pdf】或【打印】等工具按钮，将其输出为文件格式</p></li><li><p>网页文件树：</p><p>使用adobe acrobat软件</p><p><img src="/2019/11/04/网页资源离线获取//1572775701834.png" alt="adobe acrobat8.0"></p></li></ul><h3 id="将网页制作成CHM"><a href="#将网页制作成CHM" class="headerlink" title="将网页制作成CHM"></a>将网页制作成CHM</h3><h2 id="获取网页音视频的方法"><a href="#获取网页音视频的方法" class="headerlink" title="获取网页音视频的方法"></a>获取网页音视频的方法</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;网页文件树本地化&quot;&gt;&lt;a href=&quot;#网页文件树本地化&quot; class=&quot;headerlink&quot; title=&quot;网页文件树本地化&quot;&gt;&lt;/a&gt;网页文件树本地化&lt;/h2&gt;&lt;p&gt;很多网页教程等，我们希望把它下载到本地，做成文件形式，方便离线阅读。这里介绍两种格式文件的简
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://wlqunr.github.io/categories/Tools/"/>
+    
+    
+      <category term="Tools" scheme="https://wlqunr.github.io/tags/Tools/"/>
+    
+      <category term="HTML" scheme="https://wlqunr.github.io/tags/HTML/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown跨设备同步方案</title>
+    <link href="https://wlqunr.github.io/2018/09/29/Markdown%E8%B7%A8%E8%AE%BE%E5%A4%87%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/"/>
+    <id>https://wlqunr.github.io/2018/09/29/Markdown跨设备同步方案/</id>
+    <published>2018-09-29T00:27:56.000Z</published>
+    <updated>2019-11-03T10:20:20.047Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>win + Linux + macOS + iOS</strong> ，PC端使用typora，手机端使用MWeb或Write.r，同步使用icloud；</p><h3 id="PC端"><a href="#PC端" class="headerlink" title="PC端"></a>PC端</h3><p><strong>typora安装请自行移步官网。</strong></p><p>插入图片时如果使用绝对路径，移植到另一设备后，会出现找不到图片的问题。</p><p>typora设置图片路径：</p><ul><li>编辑》图片工具》当插入本地图片时》复制到文件夹</li><li>编辑》图片工具》设置图片根目录</li></ul><p><strong><em>此后该.md文件内拖拽图片即可自动完成相对路径插入；如果想要跨设备，比如通过网盘或U盘移动文件夹，直接对主文件夹操作即可；此后使用Typora时直接打开整个主文件夹，一览无余。</em></strong></p><p><strong>附：在ubuntu终端安装typora</strong></p><h3 id="手机端"><a href="#手机端" class="headerlink" title="手机端"></a>手机端</h3><ul><li><p>手机是IOS系统，采用icloud同步方案；安卓系统请自行寻找其他同步方案，如坚果云</p></li><li><p>传送门：<a href="https://wdxtub.com/2015/12/08/md-editor-ios/" target="_blank" rel="noopener">IOS手机上面的Markdown软件试用对比</a></p><p>推荐两款：</p><ol><li>MWeb</li><li>1Write</li></ol></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;win + Linux + macOS + iOS&lt;/strong&gt; ，PC端使用typora，手机端使用MWeb或Write.r，同步使用icloud；&lt;/p&gt;
+&lt;h3 id=&quot;PC端&quot;&gt;&lt;a href=&quot;#PC端&quot; class=&quot;headerlink&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://wlqunr.github.io/categories/Tools/"/>
+    
+    
+      <category term="Tools" scheme="https://wlqunr.github.io/tags/Tools/"/>
+    
+      <category term="Markdown" scheme="https://wlqunr.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows效率软件</title>
+    <link href="https://wlqunr.github.io/2018/09/29/windows%E6%95%88%E7%8E%87%E8%BD%AF%E4%BB%B6/"/>
+    <id>https://wlqunr.github.io/2018/09/29/windows效率软件/</id>
+    <published>2018-09-29T00:27:56.000Z</published>
+    <updated>2019-11-03T10:22:08.924Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="装机"><a href="#装机" class="headerlink" title="装机"></a>装机</h3><h5 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h5><ul><li>硬件驱动安装</li><li>桌面背景色、用户名、用户密码、头像设置为微信二维码；</li><li><a href="https://www.xiaoyuanjiu.com/1755.html" target="_blank" rel="noopener">隐藏登录界面的关机按钮</a></li><li>桌面<ul><li>腾讯桌面整理</li><li>桌面日历</li><li>敬业签</li></ul></li><li>任务栏<ul><li>任务栏透明：TranslucentTB》并设置该软件开机启动</li><li>任务栏移到左侧调整宽度：7+ Taskbar Tweaker，右键点击高级选项 &gt;&gt; no_width_limit &gt;&gt; 1》并设置该软件开机启动</li></ul></li><li>加速开机速度<ul><li>Win+ R – 输入msconfig – 引导 – 勾上无GUI引导，确定</li></ul></li><li>定期备份（每周五中午12点）<ul><li>在控制面板的win备份设置</li></ul></li><li>创建还原点（系统即时自动更新）</li><li>每晚1点定时关机<ul><li>在win10附件》任务计划》新建基本任务》名称为定时关机》每天1点执行》添加参数-s（倒数30s关机）</li></ul></li><li>自动定期磁盘碎片整理计划<ul><li>右击C盘》属性》工具》设置磁盘碎片整理优化方案</li></ul></li></ul><h5 id="文件系统："><a href="#文件系统：" class="headerlink" title="文件系统："></a>文件系统：</h5><ul><li><p><a href="https://pan.baidu.com/s/1r-5-vb2OijSyxEuahLgEyA" target="_blank" rel="noopener">office2016</a>：先安装2016office，再安装Visio</p><ul><li>统一用KMS注册</li><li>office逐个组件设置，隔10分钟保存一次，数据类软件隔5分钟</li><li>excel:  easychart插件；配合project；origin安装未破解</li><li>PPT：onekey lite插件；</li></ul></li><li><p>office改为标签页：office Tab</p></li><li><p>文件夹改为标签页：clover</p></li><li><p>搜索</p><ul><li>文件名搜索：everything：快捷键ctrl+alt+。</li><li>文件内容搜索：textseek：快捷键ctrl+alt+,</li></ul></li><li><p>剪切板：Ditto</p></li><li><p>神压缩：7zip、Bandzip</p></li><li><p>输入法：搜狗</p></li><li><p>万能播放器：potplayer</p></li><li><p>PDF查看：adobe Reader</p></li><li><p>PDF处理：ABBYY Findreader</p><ul><li>PDF处理</li><li>PDF转word、excel，其他转PDF</li><li>图像OCR识别</li></ul></li><li><p>CHM阅读器</p></li><li><p>手机端控制电脑：remote mouse</p></li><li><p>网盘</p><ul><li>存储：百度云  </li><li>同步：icloud + onedrive</li></ul></li><li><p>磁盘分析：spacesniffer</p></li><li><p>误删恢复：recuva</p></li><li><p>linux盘制作：rufus</p></li><li><p>win盘制作：大白菜</p></li><li><p>虚拟机：VMware</p></li><li><p>环境变量编辑器：rapidee</p></li><li><p>硬件检测：ADDI64</p></li><li><p>RAM检测：RAMexpert</p></li><li><p>存储盘测速：DiskMark</p></li><li><p>存储盘信息：CrystalDiskInfo</p></li><li><p>存储盘分区：DiskGenius</p></li><li><p>驱动更新管理：LenovoDriver</p></li><li><p>安全：火绒</p><p>火绒插件：文件粉碎、弹窗拦截、U盘拦截</p></li></ul><h5 id="专业"><a href="#专业" class="headerlink" title="专业"></a>专业</h5><ul><li><p>multisim安装并license</p></li><li><p>AD10安装并license</p></li><li><p>Xilinx ISE</p></li><li><p>keil4装 51安装并license</p></li><li><p>keil5装 Arm安装并license</p></li><li><p>串口sscom、serialPlot</p></li><li><p><strong>抓包：secureFX、secureCRT安装未破解</strong></p></li><li><p>抓包：wireShark</p></li><li><p>点阵码：PCtolLCD</p></li><li><p>代码：</p><ul><li><p>IDE：VS2019、Pycharm</p></li><li><p>编辑器：</p><ul><li><p>VS code;</p><ul><li><p>cmd中更改插件安装路径：code –extensions-dir D:\software\vscode\extensions</p></li><li><p>本地安装插件：</p><p>先在官网下载对应的.vsix安装文件</p><p>cmd中：code –install-extension lslsyzhang.markdown-all-in-one-1.4.0.vsix</p></li></ul></li><li><p>gVim</p></li></ul></li><li><p>查看器：understand</p></li></ul></li><li><p>对比器：beyond compare</p><ul><li>码元转换：love string</li><li>版本管理：git bash</li></ul></li><li><p>安装shell</p></li><li><p>安装node</p></li><li><p>代码审查：reviewboard</p></li></ul><h5 id="处理："><a href="#处理：" class="headerlink" title="处理："></a>处理：</h5><ul><li>处理<ul><li>商业分析：Tableau</li><li>图像：PS 安装并破解</li><li>视频：Hitfilm 安装并破解，密码countryboy</li><li>音频：cooledit 安装并破解</li></ul></li><li>PDF编辑与OCR：ABBY</li><li>截取<ul><li>截屏：picpick  </li><li>录屏：4vedio</li><li>OCR：天若OCR</li><li>屏幕取色器：color cube</li></ul></li><li>演示<ul><li>原型设计：Axure RP8</li><li>脑图：Mind Manager</li><li>流程图：visio</li><li>演示：publisher + ppt</li><li>图表：excel + project + excel chart</li><li>图标库：Icons8</li></ul></li><li>markdown<ul><li>编辑器：typora<ul><li>设置自动保存</li></ul></li><li>图床：picgo <ul><li>设置git图床</li></ul></li><li>博客：HEXO </li></ul></li><li>office工具箱：万彩办公大师</li><li>格式转换：格式工厂</li></ul><h5 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h5><ul><li>谷歌浏览器：<a href="mailto:wlqunr@163.com" target="_blank" rel="noopener">wlqunr@163.com</a> 用手机验证码登录同步即可</li><li><img src="/2018/09/29/windows效率软件/D:/0_usrVan/iCloudDrive/9CR7T2DMDG~com~ngocluu~onewriter/Markdown/Works/Temp/1553779354593.png" style="zoom:1.5"></li><li>翻墙：psiphon</li><li>交互：teamview +Slack +Wechat + 邮箱</li><li>百度文库下载：冰点文库</li><li>翻译：有道</li><li>音乐：网易云</li><li>地图：应用商店自带</li><li>电视：应用商店自带</li><li>股票：同花顺</li><li>时钟屏保：Fliqlo</li><li>设置自动保存<ul><li>代码类软件自动git</li></ul></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;装机&quot;&gt;&lt;a href=&quot;#装机&quot; class=&quot;headerlink&quot; title=&quot;装机&quot;&gt;&lt;/a&gt;装机&lt;/h3&gt;&lt;h5 id=&quot;设置&quot;&gt;&lt;a href=&quot;#设置&quot; class=&quot;headerlink&quot; title=&quot;设置&quot;&gt;&lt;/a&gt;设置&lt;/h5&gt;&lt;ul&gt;
+&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://wlqunr.github.io/categories/Tools/"/>
+    
+    
+      <category term="Tools" scheme="https://wlqunr.github.io/tags/Tools/"/>
+    
+      <category term="装机" scheme="https://wlqunr.github.io/tags/%E8%A3%85%E6%9C%BA/"/>
+    
+      <category term="高效" scheme="https://wlqunr.github.io/tags/%E9%AB%98%E6%95%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>谷歌访问方法</title>
+    <link href="https://wlqunr.github.io/2018/09/07/%E8%B0%B7%E6%AD%8C%E8%AE%BF%E9%97%AE%E6%B8%A0%E9%81%93/"/>
+    <id>https://wlqunr.github.io/2018/09/07/谷歌访问渠道/</id>
+    <published>2018-09-07T09:25:00.000Z</published>
+    <updated>2019-11-03T10:21:23.074Z</updated>
+    
+    <content type="html"><![CDATA[<p>介绍chrome的win端google搜索引擎访问方法</p><ul><li>在chrome的扩展程序中下载“谷歌访问助手”</li><li>按要求将“<a href="https://2018.hao245.com”设为首页，这时打开一个新标签时将会转移该网站/" target="_blank" rel="noopener">https://2018.hao245.com”设为首页，这时打开一个新标签时将会转移该网站</a></li><li>在扩展程序中下载“Momentum”，这个插件可以重置首页覆盖</li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;介绍chrome的win端google搜索引擎访问方法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在chrome的扩展程序中下载“谷歌访问助手”&lt;/li&gt;
+&lt;li&gt;按要求将“&lt;a href=&quot;https://2018.hao245.com”设为首页，这时打开一个新标签时将会转移该网站/&quot; 
+      
+    
+    </summary>
+    
+    
+      <category term="Tools" scheme="https://wlqunr.github.io/categories/Tools/"/>
+    
+    
+      <category term="Tools" scheme="https://wlqunr.github.io/tags/Tools/"/>
+    
+      <category term="Chrome" scheme="https://wlqunr.github.io/tags/Chrome/"/>
+    
+  </entry>
+  
+</feed>
